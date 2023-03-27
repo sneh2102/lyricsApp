@@ -1,0 +1,8 @@
+.list{
+    background-color: #1b1b1b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: #fff;
+    border: 0
+  }

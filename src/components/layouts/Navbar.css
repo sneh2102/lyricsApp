@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #0f0f0f00;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar p {
+    margin: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00c7ff, 0 0 35px #00c7ff, 0 0 40px #00c7ff, 0 0 50px #00c7ff;
+    animation: flicker 2s infinite linear;
+  }
+  
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6f00ff, 0 0 35px #7700ff, 0 0 40px #cc00ff, 0 0 50px #9900ff;
+    }
+    20%, 22%, 24%, 55% {
+      text-shadow: none;
+    }
+  }
